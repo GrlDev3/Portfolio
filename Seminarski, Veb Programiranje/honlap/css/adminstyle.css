@@ -1,0 +1,128 @@
+/*index.php stilusa => minden aloldalra vonatkozik*/
+body{
+    background-color: #77081e; /*4f0010*/
+    color:#ffe5e5;
+    font-family: Verdana, sans-serif;
+}
+li{
+    list-style-type: none;
+    float: left;
+    border: 2px groove #f19aab;
+    text-align: center;
+    background-color: #992139;
+    margin: 12px 10px;
+    margin-bottom: 1px;
+    padding: 10px 15px;
+}
+
+h1,h2,h3,h4{
+    font-family: Gabriola;
+}
+#header{
+    padding: 0px 100px;
+    margin: 5px;
+    font-size: 24px;
+}
+
+a {
+    color: #fca1a5;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#850a10;
+}
+
+#navigation{
+    display: block;
+    overflow: auto;
+    border-bottom: 3px solid #ffaba4;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: #ffe5e5;
+    padding: 5px;
+}
+
+#navigation a:hover,li:hover{
+    background-color: #da6c81;
+    color: #000;
+}
+
+#navigation #user,#user:hover{
+    background-color: #992139;
+    color: #ffe5e5;
+    float: right;
+    margin-right: 50px;
+}
+
+th, td{
+    border:1px solid #fca1a5;
+    padding: 5px;
+}
+
+tr:hover{
+    background-color: #dd6d7f; /*c8434a*/
+}
+th{
+    background-color: #b53d55; /*aa252c*/
+}
+label{
+    font-weight: bold;
+}
+
+.btn{
+    color: #f19bac;
+    font-size: 14px;
+    padding:10px 10px 10px 10px;
+    background: #c34b42;
+    text-decoration: none;
+    border:0;
+}
+
+/*list.php stilusa*/
+.description{
+    display: none;
+    width: 300px;
+}
+
+.show:hover{
+    cursor: pointer;
+    color:#850a10;
+}
+
+/*kezdooldal stilusa => home*/
+#descriptionnew{
+    display: none;
+}
+#descriptionlist{
+    display: none;
+}
+#descriptionupdate{
+    display: none;
+}
+#descriptiondelete{
+    display: none;
+}
+
+#new{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
+#list{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
+#update{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
+#delete{
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
