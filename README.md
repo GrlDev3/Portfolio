@@ -1,4 +1,4 @@
-Portfolio.rtf file contains most of the descriptive points of what I learned from school and my first job.
+Portfolio.pdf file contains most of the descriptive points of what I learned from school and my first job.
 
 ****************
 
